@@ -1,0 +1,28 @@
+.TodoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 8px;
+}
+
+.TodoItem-title {
+  text-transform: capitalize;
+}
+.TodoItem-title.completed {
+  text-decoration: line-through;
+}
+
+.btn-container {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.TodoItem button {
+  padding: 4px;
+  font-size: inherit;
+  text-transform: capitalize;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 8px;
+}
